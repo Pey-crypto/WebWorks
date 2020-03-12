@@ -8,7 +8,30 @@ h1{
     padding-bottom: 50px;
     padding-left: 80px;
   }
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-image:url("");
+  background-repeat: repeat;
+  background-attachment: contents;
+}
+#section1{
+  height: 300px;
+  background-color: antiquewhite;
+  text-align: center;
+  box-sizing: border-box;
   
+}
+#section2{
+  height: 300px ;
+  background-color: antiquewhite;
+}
+#section3{
+  height: 300px;
+  background-color: antiquewhite;
+
+}
     
 p{
     font-family: 'Raleway', sans-serif;
@@ -18,15 +41,6 @@ p{
     padding-bottom: 50px;
     padding-left: 80px;
   }
-  button {
-    background-color: rgb(238, 105, 95); /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+  
 
 

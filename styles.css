@@ -8,7 +8,46 @@ h1{
     padding-bottom: 50px;
     padding-left: 80px;
   }
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-image:url("");
+  background-repeat: repeat;
+  background-attachment: contents;
+}
+#section1{
+  background-color: lavender;
+  text-align: center;
+  margin-left: auto ;
+  margin-right: auto;
+  margin-top: 250px;
+  margin-bottom: 300px;
+  width: 1000px;
+  padding-right: 60px;
+}
+#section2{
+  background-color: lavender;
+  text-align: center;
+  margin-left: auto ;
+  margin-right: auto;
+  margin-top: 250px;
+  margin-bottom: 300px;
+  width: 1000px;
+  padding-right: 60px;
   
+}
+#section3{
+  background-color: lavender;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+  margin-bottom: 300px;
+  width: 1000px;
+  padding-right: 60px;
+  border: 400px hotpink;
+}
     
 p{
     font-family: 'Raleway', sans-serif;
@@ -18,15 +57,32 @@ p{
     padding-bottom: 50px;
     padding-left: 80px;
   }
-  button {
-    background-color: rgb(238, 105, 95); /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+li{
+  font-family: 'Baloo 2', cursive;
+}
+.parallax{
+  background-image: url("bgimg.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.para2{
+  background-image: url("bgimg2.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.para3{
+  background-image: url("bgimg3.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

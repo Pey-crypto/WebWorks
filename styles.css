@@ -1,4 +1,5 @@
 h1{
+    background-color:aqua;
     font-family: 'Tangerine', serif;
     font-size: 48px;
     text-shadow: 4px 4px 4px #aaa;
@@ -7,17 +8,64 @@ h1{
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
+    animation-duration: 3s;
+    animation-name: slide-in;
+}
+  @keyframes slide-in{
+    from{
+      margin-right: 100% ;
+      width : 108%;
+    }
+    to  {
+      margin-right: 0% ;
+      width : 100%  ;
+    }
   }
+
+.drop{
+  width: auto;
+  height: 100px;
+  background-color: red;
+  animation-name: CC;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+@keyframes CC {
+  0% {background-color: aquamarine;}
+  25% {background-color: blueviolet;}
+  50% {background-color: aqua;}
+  75% {background-color: mediumseagreen;}
+  100% {background-color: aquamarine;}
+}
+.damn{
+  animation-name: cr ;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 24px;
+  margin-left:auto;
+  margin-right:auto;
+}
+@keyframes cr{
+  0% {background-color:blueviolet ;}
+  25% {background-color: aquamarine;}
+  50% {background-color: mediumseagreen;}
+  75% {background-color: aqua ;}
+  85% {background-color: pink ;}
+  100% {background-color: blueviolet;}
+}
+.space{
+  width: 940px;
+  height: 10px;
+  background-color: khaki;
+  animation-duration: 3s;
+  animation-name: slide-in;
+}
 html{
   scroll-behavior: smooth;
 }
-body{
-  background-image:url("");
-  background-repeat: repeat;
-  background-attachment: contents;
-}
 #section1{
-  background-color: lavender;
   text-align: center;
   margin-left: auto ;
   margin-right: auto;
@@ -27,7 +75,6 @@ body{
   padding-right: 60px;
 }
 #section2{
-  background-color: lavender;
   text-align: center;
   margin-left: auto ;
   margin-right: auto;
@@ -38,7 +85,6 @@ body{
   
 }
 #section3{
-  background-color: lavender;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -46,16 +92,18 @@ body{
   margin-bottom: 300px;
   width: 1000px;
   padding-right: 60px;
-  border: 400px hotpink;
 }
     
 p{
+    background-color: lightpink;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     padding-top: 20px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
+    animation-duration: 3s;
+    animation-name: slide-in;
   }
 li{
   font-family: 'Baloo 2', cursive;
